@@ -1,4 +1,4 @@
-# JVC CarPlay Remote: gesture controls for a repurposed factory switch in my 2003 Acura RSX
+# JVC CarPlay Remote: Gesture controls for a repurposed factory switch in my 2003 Acura RSX
 
 ![CarPlay controlling sunroof switch installed in dash](docs/images/installed-switch.jpg)
 
