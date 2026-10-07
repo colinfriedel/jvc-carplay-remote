@@ -4,3 +4,7 @@
 
 A DIY Arduino project that adds volume, track skip, mute and voice assistant
 controls to a JVC KW-M560BT head unit, using a junkyard-sourced original RSX sunroof switch so that it looks factory.
+
+
+
+![Wiring diagram for the project](docs/images/wiring-diagram.png)
