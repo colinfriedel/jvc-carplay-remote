@@ -49,7 +49,7 @@ flowchart LR
 ![Wiring diagram](docs/images/wiring-diagram-white.png)
 
 - **Switch:** common to GND, down to D3, up to D5. Both inputs use the Nano's internal pull-ups.
-- **Head unit:** D7 to the JVC steering-remote wire (light blue/yellow), with a shared ground.
+- **Head unit:** D7 to the JVC steering-remote wire (light blue/yellow), with a shared chassis ground.
 - **Power:** switched 12 V from the old cigarette lighter wire, through a 1 A fuse and a 12 V to 5 V buck converter, into the Nano's USB port.
 - **Lamp:** the switch backlight is fed from the car's headlight-switched illumination wires.
 
@@ -74,7 +74,7 @@ JVC head units accept a "steering remote" signal on a single wire. The signal us
 
 ### How I found the codes
 
-The timing and the basic volume codes come from the AVForums thread below. The rest I found by scanning all 128 codes (0x00 to 0x7F) on the actual head unit with `tools/jvc_code_scanner`, sending one code at a time and watching the screen. That scan found mute, voice assistant and CarPlay track skip, which the thread didn't cover for this model.
+The timing and the basic volume codes come from the AVForums thread linked below. The rest I found by scanning all 128 codes (0x00 to 0x7F) on the actual head unit with `tools/jvc_code_scanner`, sending one code at a time and watching the screen. That scan found mute, voice assistant and CarPlay track skip, which the thread didn't cover for this model.
 
 ## Limitations
 
