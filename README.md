@@ -6,7 +6,7 @@ A DIY Arduino project that adds volume, track skip, mute and voice assistant
 controls to a JVC KW-M560BT head unit, using a junkyard-sourced original RSX sunroof switch so that it looks factory.
 
 
-mermaid
+```mermaid
 flowchart LR
     subgraph car["Car"]
         lighter["Switched 12 V<br/>(old lighter-socket wire)"]
@@ -29,8 +29,8 @@ flowchart LR
     lamps --> led
     nano -->|"D7, open-drain<br/>JVC remote frames"| head["JVC KW-M560BT<br/>steering-remote input"]
     head -->|"CarPlay over USB"| phone["iPhone"]
-mermaid
+```
 
 
 
-![Wiring diagram for the project](docs/images/wiring-diagram.png)
+![Wiring diagram for the project](docs/images/wiring-diagram-white.png)
